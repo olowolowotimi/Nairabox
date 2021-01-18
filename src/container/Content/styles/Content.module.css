@@ -1,0 +1,77 @@
+.options {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-evenly;
+}
+.optionOne {
+  background-image: url("/static/img/event.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.cards h4 {
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.cards p {
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.optionTwo {
+  background-image: url("/static/img/food.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.optionThree {
+  background-image: url("/static/img/movie.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.option {
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-evenly;
+  }
+.optionFour {
+  background-image: url("/static/img/airtime.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.optionFive {
+  background-image: url("/static/img/payment.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.optionSix {
+  background-image: url("/static/img/flight.png");
+  height: 400px;
+  width: 30%;
+  background-color: rgba(17, 36, 4, 0.63);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
