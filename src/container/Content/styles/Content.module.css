@@ -75,3 +75,22 @@
   background-blend-mode: multiply;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 768px){
+.cards{
+  width:100%;
+  display: inline-block;
+  padding: 0px 10px;
+}
+.options{
+  width:1200px;
+  display:inline-block;
+}
+.option{
+  width:1200px;
+  display:inline-block;
+  
+
+
+}
+}
