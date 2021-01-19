@@ -13,11 +13,13 @@
 
 }
 .card{
+    height: 20px;
+   
   transition: 0.3s;
   border-radius: 2px;
   border: 1px solid rgb(156, 146, 146) (180, 158, 158);
   background: white;
-  margin: 5px 60px;
+  margin: 10px 60px;
 }
 .details ul{
     display: flex;
