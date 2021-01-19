@@ -7,10 +7,17 @@
 }
 .details{
     display: flex;
-    padding: 10px 120px;
+    padding: 20px 120px;
     align-items: center;
-    margin: 10px 0;
+    
 
+}
+.card{
+  transition: 0.3s;
+  border-radius: 2px;
+  border: 1px solid rgb(156, 146, 146) (180, 158, 158);
+  background: white;
+  margin: 5px 60px;
 }
 .details ul{
     display: flex;
@@ -31,4 +38,15 @@
     font-weight: bold;
     font-size: 20px;
     
+}
+@media only screen and (max-width: 768px){
+    .body{
+        width: 100%;
+    }
+    .card{
+        padding: 10px 30px;
+    }
+    .details{
+        width:100%;
+    }
 }
