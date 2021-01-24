@@ -35,3 +35,22 @@
     padding: 30px 50px;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 768px) {
+    .body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .text{
+        padding: 10px 10px;
+        margin: 0;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    .contact{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}

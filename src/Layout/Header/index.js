@@ -15,6 +15,7 @@ const Header = () => {
                 <li>Our Partners</li>
                 <li>Contact Us</li>
             </ul>
+            
             <div className={topStyle.images}>
             <img src='./static/img/google.png' alt="google logo" />
             <img src='./static/img/apple.png' alt="apple logo" />

@@ -48,7 +48,12 @@
     .card{
         padding: 10px 30px;
     }
-    .details{
-        width:100%;
+    .details ul,
+    .images {
+        display: none;
+    }
+    .text{
+        margin: 0;
+        padding: 20% 5%;
     }
 }

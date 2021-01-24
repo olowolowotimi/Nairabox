@@ -79,18 +79,26 @@
 @media only screen and (max-width: 768px){
 .cards{
   width:100%;
-  display: inline-block;
-  padding: 0px 10px;
+  display: block;
+  border: 1px solid red;
 }
 .options{
-  width:1200px;
-  display:inline-block;
+  padding: 0;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+}
+.options div{
+  width:100%;
+  margin: 4% 1%;
+
 }
 .option{
-  width:1200px;
-  display:inline-block;
-  
-
-
+  padding: 0;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+}
+.option div{
+  width:100%;
+  margin: 4% 1%;
 }
 }

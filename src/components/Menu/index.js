@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import menuStyle from "./styles/Menu.module.css";
 import { IoMdMenu } from "react-icons/io";
-import { CgCopyright } from "react-icons/cg";
+
 
 
 const Menu = () => {
